@@ -1,3 +1,4 @@
 python-telegram-bot~=20.4
 auto1111sdk
 requests~=2.25
+opencv-python
