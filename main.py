@@ -5,25 +5,25 @@ import telegram.ext
 from auto1111sdk import StableDiffusionPipeline
 
 # Import the argparse library
-import argparse
+#import argparse
 
 # Create an argument parser object
-parser = argparse.ArgumentParser()
+#parser = argparse.ArgumentParser()
 
 # Add the arguments that you want to accept
-parser.add_argument("--use-cpu", default="all", help="Use CPU instead of GPU")
-parser.add_argument("--precision", default="full", help="Use full precision instead of half precision")
-parser.add_argument("--no-half", action="store_true", help="Disable half precision")
-parser.add_argument("--skip-torch-cuda-test", action="store_true", help="Skip the torch CUDA test")
+#parser.add_argument("--use-cpu", default="all", help="Use CPU instead of GPU")
+#parser.add_argument("--precision", default="full", help="Use full precision instead of half precision")
+#parser.add_argument("--no-half", action="store_true", help="Disable half precision")
+#parser.add_argument("--skip-torch-cuda-test", action="store_true", help="Skip the torch CUDA test")
 
 # Parse the arguments from the command line
-args = parser.parse_args()
+#args = parser.parse_args()
 
 # Access the arguments in your script
-print(args.use_cpu)
-print(args.precision)
-print(args.no_half)
-print(args.skip_torch_cuda_test)
+#print(args.use_cpu)
+#print(args.precision)
+#print(args.no_half)
+#print(args.skip_torch_cuda_test)
 
 # Get the API token from the environment variable
 API_TOKEN = os.environ.get("6733249388:AAGQRAkMM_PhVqG-7yGMaf0bm4M7-jbMzzo")
